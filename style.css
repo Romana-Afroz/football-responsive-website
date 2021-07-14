@@ -143,22 +143,109 @@ main{
 }
 /* ----second section ends--- */
 /* third section start */
-.about{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 69px;
-    margin-top: 165px;
-}
-.play-img img{
-    width: 567px;
-height: 427px;
-}
 
+/* highlight */
+.highlights-section {
+    width: 85%;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  .highlight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 469px;
+    height: 309px;
+    left: 182px;
+    
+  }
+  .highlight-text {
+    margin-top: 20%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0a0826;
+  }
+  .article {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .highlight-watch-btn {
+    width: 40%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e02c6d;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 00.5s all;
+  }
+  .highlight-watch-btn:hover {
+    background-color: #953a5b;
+  }
+  .highlight-img {
+    width: 50%;
+  }
+  .highlight-img img {
+    width: 550px;
+    height: 427px;
+    border-radius: 5px;
+    margin: 25px;
+  }
+  hr {
+    margin-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* media file */
+  .display-flex{
+    margin: 10px;
+    padding: 50px;
+      align-items: right;
+
+      
+  }
+/* download apps */
+.download-apps {
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+  }
+  .download-apps h4 {
+    text-align: center;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  .apps {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .apps-download-link img {
+    width: 100px;
+        height: 30px;
+  }
 /* footer start */
 
 footer{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 .footer{
     width: 483.87px;
@@ -170,15 +257,11 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px;
-margin-top: 158px;
+margin-top: 30px;
 }
-.footer{
-    width: 483.87px;
-height: 213px;
-}
-footer img{
-    width: 450px;
-height: 110px;
+.footer img{
+    width: 350px;
+height: 90px;
 }
 .footer-icon{
     margin-top: 20px;
@@ -198,3 +281,206 @@ height: 110px;
 }
 
    /* footer end */
+
+
+   
+/* ----------------media query start --------------- */
+
+/* for mobile view */
+@media only screen and (max-width:688px) {
+    body{
+        overflow-x: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-player{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        background-color:rgb(32, 32, 253) ;
+        
+    }
+    .header-part{
+        display: flex;
+        flex-direction: column;
+        margin: 21px;
+    }
+    .header-part-1{
+        justify-content: flex-end;
+    }
+    .header-part-1 .navbar{
+        display: block;
+    }
+    .login-icon a{
+     display: flex;
+    }
+
+    .header-part-2{
+        flex-direction: column;
+    }
+    .button{
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .button p{
+        /* width: 278px;
+            height: 138px; */
+    }
+    .button a{
+       
+        /* width: 168px;
+        height: 44px; */
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+    }
+    .banner img{margin-top: 94px;
+        width: 329px;
+       height: 259.17px;
+       transition: transform 3s ease-in; 
+    }
+    .banner img:hover{
+         
+        transform: scale(1.1);
+    }
+    
+
+
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    .about{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .play-img img{
+        width: 328px;
+height: 248px;
+        align-items: center;
+    }
+    .play-info{
+        width: 329px;
+height: 299px;
+        padding: 15px;
+    }
+   
+   footer{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }   
+   /* .foot-part img{
+    width: 220px;
+    height: 63px;
+   }
+   .footer-icon{
+    width: 178px;
+    height: 63px;
+   } */
+}
+
+/* for  tablet view */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    body{
+        overflow-x: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-player{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        background-color:rgb(32, 32, 253) ;
+        
+    }
+    .header-part{
+        display: flex;
+        flex-direction: column;
+        margin: 21px;
+    }
+    .header-part-1{
+        justify-content: space-between;
+    }
+    .header-part-1 .navbar{
+        display: block;
+    }
+    .login-icon a{
+    display: flex;
+    }
+
+    .header-part-2{
+        flex-direction: row;
+    }
+    .navbar ul{
+        margin-left: -36px;
+    }
+    .button{
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .button p{
+        /* width: 278px;
+height: 138px; */
+    }
+    .button a{
+       
+        /* width: 168px;
+height: 44px; */
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+    }
+    .banner img{margin-top: 94px;
+        width: 329px;
+       height: 259.17px;
+       transition: transform 3s ease-in; 
+    }
+    .banner img:hover{
+         
+        transform: scale(1.1);
+    }
+    
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .about{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .play-img img{
+        width: 328px;
+height: 248px;
+        align-items: center;
+    }
+    .play-info{
+        width: 329px;
+height: 299px;
+        padding: 15px;
+    }
+    
+   footer{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }   
+   /* .footer-part img{
+    width: 220px;
+    height: 63px;
+   }
+   .footer-icon{
+    width: 178px;
+    height: 63px;
+   } */
+}
