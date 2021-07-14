@@ -54,6 +54,12 @@ header{
     align-items: center;
     
 } 
+.fa-arrow-right{
+    margin-left: 8px;
+}
+.fa-sign-in-alt{
+    margin-right: 8px;
+}
 /*------- banner----- */
 .banner img{
 width: 556.01px;
@@ -136,3 +142,59 @@ main{
     font-size: 16px;
 }
 /* ----second section ends--- */
+/* third section start */
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 69px;
+    margin-top: 165px;
+}
+.play-img img{
+    width: 567px;
+height: 427px;
+}
+
+/* footer start */
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 483.87px;
+height: 213px;
+}
+.footer-part{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin-top: 158px;
+}
+.footer{
+    width: 483.87px;
+height: 213px;
+}
+footer img{
+    width: 450px;
+height: 110px;
+}
+.footer-icon{
+    margin-top: 20px;
+    
+}
+.footer-icon i{
+    margin-right: 0 14px;
+    font-size: 32px;
+   
+}
+.filled{
+    color:#969BAB ;
+}
+.right{
+    margin-top: 20px;
+    margin-bottom: 63px;
+}
+
+   /* footer end */
