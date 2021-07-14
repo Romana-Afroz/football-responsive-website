@@ -369,6 +369,110 @@ height: 248px;
 height: 299px;
         padding: 15px;
     }
+
+
+    /* highlight */
+.highlights-section {
+    width: 55%;
+    height: 100px;
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: center;
+    /* margin: 0 auto; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding-top: 50px;
+    overflow-y: scroll;
+   
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  .highlight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 259px;
+    height: 109px;
+    left: 82px;
+    
+}
+  .highlight-text {
+    margin-top: 20%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0a0826;
+  }
+  .article {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .highlight-watch-btn {
+    width: 40%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e02c6d;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 00.5s all;
+  }
+  .highlight-watch-btn:hover {
+    background-color: #953a5b;
+  }
+  .highlight-img {
+    width: 50%;
+  }
+  .highlight-img img {
+    width: 350px;
+    height: 227px;
+    border-radius: 5px;
+    margin: 25px;
+  }
+  
+  /* media file */
+  .display-flex{
+      margin-top: 50px;
+    margin: 10px;
+    padding: 50px;
+      align-items: right;
+align-content: center;
+
+  }
+  .frame{
+    width: 300px;
+    height: 227px;
+     margin-top: 20px;
+  }
+/* download apps */
+.download-apps {
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+  }
+  .download-apps h4 {
+    text-align: center;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  .apps {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .apps-download-link img {
+    width: 100px;
+        height: 30px;
+  }
    
    footer{
        display: flex;
@@ -394,6 +498,7 @@ height: 299px;
     }
     .container-player{
         width: 100%;
+        padding-left: 5px;
     }
     .container{
         width: 100%;
@@ -469,7 +574,102 @@ height: 248px;
 height: 299px;
         padding: 15px;
     }
+    /* highlight */
+.highlights-section {
+    width: 85%;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  .highlight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 469px;
+    height: 309px;
+    left: 182px;
     
+  }
+  .highlight-text {
+    margin-top: 20%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0a0826;
+  }
+  .article {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .highlight-watch-btn {
+    width: 40%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e02c6d;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 00.5s all;
+  }
+  .highlight-watch-btn:hover {
+    background-color: #953a5b;
+  }
+  .highlight-img {
+    width: 50%;
+  }
+  .highlight-img img {
+    width: 550px;
+    height: 427px;
+    border-radius: 5px;
+    margin: 25px;
+  }
+  hr {
+    margin-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* media file */
+  .display-flex{
+    margin: 10px;
+    padding: 50px;
+      align-items: right;
+
+      
+  }
+/* download apps */
+.download-apps {
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+  }
+  .download-apps h4 {
+    text-align: center;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  .apps {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .apps-download-link img {
+    width: 100px;
+        height: 30px;
+  }
    footer{
        display: flex;
        justify-content: center;
